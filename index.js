@@ -5,7 +5,7 @@ require("dotenv").config();
 conn();
 const routes = require("./routes/routes.js");
 app.get("/", (req, res)=> {
-    res.send("hello");
+    res.send("Hello..welcome to QUIZ API, please give a valid endpoint to post and get a data");
 })
 app.use(routes);
 
